@@ -1,4 +1,5 @@
 @AGENTS.md
+@INSTANT.md
 
 # Habit Mania
 
@@ -12,6 +13,7 @@ Cross-platform habit tracking app built with Expo SDK 56, React Native 0.85, and
 - **react-native-web** (~0.21.0) for web support
 - **TypeScript** with strict mode enabled
 - **React Compiler** enabled via Expo config
+- **InstantDB** (`@instantdb/react-native`) for real-time database, auth, and permissions — see `INSTANT.md` for full guidelines
 
 ## Project Structure
 
@@ -37,6 +39,7 @@ Cross-platform habit tracking app built with Expo SDK 56, React Native 0.85, and
 ## Explore Page
 
 The explore screen (`src/app/explore.tsx`) is an educational/documentation page with collapsible sections covering:
+
 - **File-based routing** — Explains the two-screen structure (`index.tsx` and `explore.tsx`) and how `_layout.tsx` configures tabs.
 - **Cross-platform support** — Android, iOS, and web all supported; press `w` in terminal for web.
 - **Images** — Responsive image handling with `@2x`/`@3x` density suffixes.
